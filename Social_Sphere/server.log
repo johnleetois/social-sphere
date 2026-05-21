@@ -1,0 +1,24 @@
+INFO:     Started server process [70739]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:35904 - "GET / HTTP/1.1" 200 OK
+INFO:     192.168.1.210:52734 - "OPTIONS /auth/login HTTP/1.1" 200 OK
+INFO:     192.168.1.210:52738 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     192.168.1.210:52738 - "OPTIONS /groups/my HTTP/1.1" 200 OK
+INFO:     192.168.1.210:56320 - "OPTIONS /profile/me HTTP/1.1" 200 OK
+INFO:     192.168.1.210:52738 - "GET /profile/me HTTP/1.1" 200 OK
+INFO:     192.168.1.210:56328 - "GET /groups/my HTTP/1.1" 200 OK
+INFO:     192.168.1.210:43636 - "GET /profile/me HTTP/1.1" 200 OK
+INFO:     192.168.1.210:43636 - "OPTIONS /groups/5 HTTP/1.1" 200 OK
+INFO:     192.168.1.210:56632 - "GET /groups/5 HTTP/1.1" 405 Method Not Allowed
+INFO:     192.168.1.210:56632 - "GET /groups/5 HTTP/1.1" 405 Method Not Allowed
+INFO:     192.168.1.210:56632 - "OPTIONS /posts/group/5 HTTP/1.1" 200 OK
+INFO:     192.168.1.210:43636 - "GET /posts/group/5 HTTP/1.1" 200 OK
+INFO:     192.168.1.210:58944 - "GET /profile/me HTTP/1.1" 200 OK
+INFO:     192.168.1.210:42508 - "GET /profile/me HTTP/1.1" 200 OK
+INFO:     192.168.1.210:42508 - "OPTIONS /groups/2 HTTP/1.1" 200 OK
+INFO:     192.168.1.210:56854 - "GET /groups/2 HTTP/1.1" 405 Method Not Allowed
+INFO:     192.168.1.210:56854 - "GET /groups/2 HTTP/1.1" 405 Method Not Allowed
+INFO:     192.168.1.210:56854 - "OPTIONS /posts/group/2 HTTP/1.1" 200 OK
+INFO:     192.168.1.210:42508 - "GET /posts/group/2 HTTP/1.1" 200 OK

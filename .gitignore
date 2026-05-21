@@ -1,0 +1,21 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Claude files/folder
+.claude
+.claude/
+*.claude
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# OS/editor
+.DS_Store
+.vscode/
